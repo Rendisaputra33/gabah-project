@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #514f51;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+/* SIDE-NAVIGATION */
+
+.container-nav {
+    height: 100%;
+    width: 45px;
+    margin: 60px;
+}
+.container-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: fixed;
+    overflow: auto;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.container-nav li a {
+    background-color: #fff;
+    padding: 15px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+.container-nav li a.active {
+    background-color: #1ca7ec;
+    color: white;
+}
+.container-nav li a:hover:not(.active) {
+    background-color: #1ca7ec;
+    color: white;
+}
+
+/* CONTENT */
+.content-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 120px 0 0;
+}
+.container-content {
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    padding: 0 80px;
+}
+.container-content h2 {
+    font-size: 2rem;
+}
+
+/* TABLE */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    margin-bottom: 100px;
+}
+button {
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    padding: 4px 12px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.button {
+    background-color: white;
+    color: #1ca7ec;
+    border: 2px solid #1ca7ec;
+}
+.button-cancel {
+    color: #fff;
+    border: 1px #ec231c solid;
+    background-color: #ec231c;
+}
+.button:hover {
+    background-color: #1ca7ec;
+    color: #514f51;
+}
+.icons-button {
+    padding: 6px 6px;
+    border: 1.3px #515151 solid;
+    border-radius: 50%;
+    background-color: white;
+    color: #1ca7ec;
+}
+.icons-button:hover {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+        rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}

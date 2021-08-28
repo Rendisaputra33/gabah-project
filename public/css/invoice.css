@@ -1,0 +1,85 @@
+tabel {
+    margin-top: 8rem;
+}
+#form {
+    padding-top: 8rem;
+    width: 60%;
+    margin-left: 20%;
+}
+.wrap {
+    text-align: center;
+    padding: 20px 60px 0;
+    padding: 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.tabble table {
+    width: 100%;
+    text-align: left;
+    width: 80%;
+    margin-left: 10%;
+}
+.wrap h2 {
+    margin-top: 2%;
+}
+.wrap hr {
+    width: 70%;
+    margin-left: 15%;
+}
+.content table {
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    border: solid 1px black;
+}
+.content table th {
+    border-right: solid 1px black;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+.content table td {
+    border-right: solid 1px black;
+    border-top: solid 1px black;
+}
+.pot table {
+    width: 80%;
+}
+.pot table th {
+    border-top: solid 1px black;
+}
+.submengtotal {
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.tombol {
+    margin-top: 5%;
+    margin-left: 12%;
+}
+
+.berat {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .tombol {
+        margin-top: 2%;
+        margin-left: 25%;
+    }
+    .content table {
+        table-layout: fixed;
+    }
+}
+@media (max-width: 425px) {
+    .wrap {
+        font-size: 10px;
+    }
+}
